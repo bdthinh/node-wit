@@ -13,12 +13,25 @@
   ],
   "main": "index.js",
   "scripts": {
+    "start": "node examples/quickstart.js MWLTAAEEBDLRPMO5WHVDZZZG267NEFCX",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/wit-ai/node-wit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wit-ai/node-wit.git"
+  },
   "author": "Julien Odent <julien@wit.ai>",
   "dependencies": {
     "node-uuid": "^1.4.7",
     "request": "^2.69.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/wit-ai/node-wit/issues"
+  },
+  "homepage": "https://github.com/wit-ai/node-wit#readme",
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "license": "ISC",
 }
